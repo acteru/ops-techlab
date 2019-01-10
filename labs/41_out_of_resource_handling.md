@@ -58,7 +58,7 @@ In this example this would look like:
 
 ```
 ssh app-node0.user[X].lab.openshift.ch
-journalctl -ke
+journalctl -ke -p3
 ```
 
 The following lines should be highlighted:
